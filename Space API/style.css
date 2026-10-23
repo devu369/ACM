@@ -4,10 +4,33 @@ body{
     padding: 0;
     font-size: 20px;
     min-height: 100vh;
-    color: #f5f2f5;
+    color: #FFFFFF;
     text-align: center;
     background-image: url('https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=2000,1561');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+#apod-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #0000007c;
+  border-radius: 12px;
+}
+
+#apod-title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#media-container img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#apod-description {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
 }
